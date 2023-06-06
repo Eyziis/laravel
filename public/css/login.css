@@ -1,0 +1,186 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+    font-style: normal;
+    font-weight: 100;
+}
+a{
+    color:white;
+}
+.page {
+    display: flex;
+    min-width: 360px;
+    min-height: 560px;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+
+    background: rgb(33, 112, 112);
+    background: linear-gradient(126deg, rgba(33, 112, 112, 1) 0%, rgba(35, 143, 143, 1) 50%, rgba(25, 179, 179, 1) 100%);
+}
+
+.page div, form {
+    display: flex;
+}
+
+.loginContainer {
+    max-width: 600px;
+    width: 90%;
+    max-height: 480px;
+    height: 90%;
+    flex-direction: column;
+    padding: 5px;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 8px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.loginForm {
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    gap: 20px;
+    height: 100%;
+}
+.loginForm div{
+    width: 80%;
+    max-width: 360px;
+}
+.loginForm button{
+    color: black;
+    background-color: #FFFFFF;
+    background-position: center center;
+    background-repeat: no-repeat;
+    border-radius: 4px;
+    background-size: contain;
+    background-origin: content-box;
+    border: none;
+    min-width: 160px;
+    min-height: 36px;
+    max-height: 36px;
+    text-transform: uppercase;
+    box-shadow: 0 8px 32px 0 rgb(0 0 0 / 37%);
+    cursor: pointer;
+}
+.loginContainerHeader {
+    flex-direction: column;
+    align-items: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+
+}
+
+.loginContainerBody {
+    flex-direction: column;
+    flex: 1;
+}
+
+.loginContainerFooter {
+    justify-content: center;
+    margin-bottom: 25px;
+    width: 100%;
+
+}
+
+.loginContainerHeader p{
+    color: white;
+    font-size: 36px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+::placeholder {
+    color: white;
+}
+
+input::-webkit-input-placeholder {
+    -webkit-transition: .5s;
+}
+
+input:-moz-input-placeholder {
+    -moz-transition: .5s;
+}
+
+input::-moz-input-placeholder {
+    -moz-transition: .5s;
+}
+
+input:-ms-input-placeholder {
+    -ms-transition: .5s;
+}
+
+input:focus::-webkit-input-placeholder {
+    color: transparent;
+}
+
+input:focus:-moz-placeholder {
+    color: transparent;
+}
+
+/* FF 4-18 */
+input:focus::-moz-placeholder {
+    color: transparent;
+}
+
+/* FF 19+ */
+input:focus:-ms-input-placeholder {
+    color: transparent;
+}
+
+/* IE 10+ */
+
+input {
+    outline: none;
+}
+
+input[type=email], input[type=password] {
+    background-position: left center;
+    background-repeat: no-repeat;
+    border-left: none;
+    border-top: none;
+    border-right: none;
+    border-bottom: 1px solid white;
+    background-origin: content-box;
+    background-size: auto;
+    background-origin: border-box;
+    color: #FFFFFF;
+    text-align: left;
+    text-indent: 24px;
+    background-color: inherit;
+    width: 80%;
+    max-width: 360px;
+    height: 100%;
+    font-size: 16px;
+    max-height: 24px;
+    font-weight: 100;
+}
+
+.passwordInput {
+    background-image: url(https://aigles-scrl.com/ext/cadenas.png);
+}
+
+.emailInput {
+    background-image: url(https://aigles-scrl.com/ext/enveloppe.png);
+}
+
+.logoContainer{
+    height: 120px;
+    width: 100%;
+    max-width: 120px;
+    max-height: 120px;
+    border-radius: 60px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logoContainer img{
+    max-width: 60px
+}
+
